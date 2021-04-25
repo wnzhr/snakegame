@@ -1,1 +1,33 @@
-index.html
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <title>Snake eats apple</title>
+
+    <!-- Link to css -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+
+  <h2>Snake & Apple</h2>
+
+  <h3> Eat as many apples as you can</h3>
+
+  <!-- make the game board div -->
+    <div id="gameContainer"></div> 
+
+    <!-- makes the score div below the board  -->
+    <div id="scoreContainer">
+      <div class="scoreBoard">Food: <span id="pointsEarned">0</span></div>
+      <div class="scoreBoard">Blocks: <span id="blocksTravelled">0</span></div>
+    </div>
+
+    </div>
+  </body>
+
+  <!-- #Load our snake_game.js containing the game logic -->
+  <script src="script.js"></script>
+</html>
